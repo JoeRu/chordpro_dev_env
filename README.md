@@ -15,6 +15,9 @@ Then clone this repository beside - so that the following structure is available
 
 Open chordpro_dev_env folder in VS Code. You will be asked to open it in "Container" - please allow. The Dockerfile will now build all requirements for running a Perl-Dev and Debug-Server.
 
+## .vscode - 
+please copy .vscode to your chordpro directory - as it will be ignored by .gitignore it has no impact but will make your life a bit more easy.
+
 ## Adaptions
 
 Please adapt mount-path - if choosen to be different then explained in setup - of your chordpro-directory in file `\.devcontainer\devcontainer.json`
