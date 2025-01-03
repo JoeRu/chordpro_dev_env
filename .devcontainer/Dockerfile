@@ -1,4 +1,1 @@
-FROM jayar79/chordpro:latest
-#WORKDIR /workspaces/chordpro
-#RUN cpanm --installdeps --notest .
-RUN cpanm -i Perl::LanguageServer
+FROM jayar79/chordpro:dev_container
